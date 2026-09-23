@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+  <channel>
+    <title>Kumsal Koleksiyon Ürün Feed'i</title>
+    <link>https://kumsalkoleksiyon.com/</link>
+    <description>3–16 yaş çocuk giyim ürünleri</description>
+    <item>
+      <g:id>1</g:id>
+      <g:title>Fuchsia Ruffle Elbise</g:title>
+      <g:description>3–16 yaş çocuklar için %100 pamuklu, rahat kız çocuk elbisesi.</g:description>
+      <g:link>https://kumsalkoleksiyon.com/urun/1</g:link>
+      <g:image_link>https://kumsalkoleksiyon.com/manus-storage/purple-dress_cb50421a.jpg</g:image_link>
+      <g:price>899 TRY</g:price>
+      <g:availability>in_stock</g:availability>
+      <g:brand>Kumsal Koleksiyon</g:brand>
+      <g:condition>new</g:condition>
+      <g:custom_label_0>Kız çocuk</g:custom_label_0>
+      <g:custom_label_1>3-16 yaş</g:custom_label_1>
+    </item>
+  </channel>
+</rss>

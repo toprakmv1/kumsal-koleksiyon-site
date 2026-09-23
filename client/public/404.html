@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kumsal Koleksiyon</title>
+    <script>
+      (function () {
+        var base = "/kumsal-koleksiyon-site/";
+        var path = window.location.pathname.indexOf(base) === 0
+          ? window.location.pathname.slice(base.length)
+          : window.location.pathname.replace(/^\//, "");
+        var encoded = path.split("/").filter(Boolean).map(encodeURIComponent).join("~and~");
+        var query = window.location.search ? "&" + window.location.search.slice(1) : "";
+        window.location.replace(base + "?/" + encoded + query + window.location.hash);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>

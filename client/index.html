@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <meta name="theme-color" content="#f6f1ec" />
+    <meta name="description" content="Kumsal Koleksiyon — 3–16 yaş arası özgür ruhlar için yüksek enerjili, rahat ve kendine has çocuk modası." />
+    <meta property="og:title" content="Kumsal Koleksiyon — Çocukluk renklenince güzel." />
+    <meta property="og:description" content="Çocuklar için renkli, rahat ve özgün parçalar." />
+    <title>Kumsal Koleksiyon — Çocukluk renklenince güzel.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=Baloo+2:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      (function () {
+        var match = window.location.search.match(/^\?\/(.*)/);
+        if (!match) return;
+        var base = "/kumsal-koleksiyon-site/";
+        var route = match[1].split("&")[0].split("~and~").filter(Boolean).map(decodeURIComponent).join("/");
+        window.history.replaceState(null, "", base + route);
+      })();
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
